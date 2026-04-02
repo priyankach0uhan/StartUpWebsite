@@ -2,8 +2,6 @@
 
 Welcome to the repository for **StartUpWebsite**. This project was developed during my internship to provide a high-performance, modern landing page solution for emerging startups. The goal was to bridge the gap between complex design requirements and clean, maintainable code.
 
-[**View Live Demo**](https://priyankach0uhan.github.io/StartUpWebsite/) | [**Report Bug**](https://www.google.com/search?q=https://github.com/priyankach0uhan/StartUpWebsite/issues)
-
 -----
 
 ## 📌 Project Overview
