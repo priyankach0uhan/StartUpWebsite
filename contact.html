@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SquareUp Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">  
+<i class="fa-solid fa-cube logo-icon"></i>
+    <span class="logo-text">SquareUp</span>   
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="Service.html">Services</a>
+            <a href="Work.html">Work</a>
+            <a href="Process.html">Process</a>
+            <a href="about.html">About</a>
+            <a href="career.html">Careers</a>
+        </div>
+
+        <button class="btn-neon-small" onclick="window.location.href='contact.html'">
+  Contact Us
+</button>
+    </nav>
+<section class="services-section">
+    <div class="services-header">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us today and let us help you with any questions or inquiries you may have.</p>
+    </div>
+</section>
+
+<div class="contact-bar">
+    <a href="mailto:hello@squareup.com" class="contact-item">
+        <span class="icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </span>
+        <span class="text">hello@squareup.com</span>
+    </a>
+
+    <a href="tel:+9191813232309" class="contact-item">
+        <span class="icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1H7c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        </span>
+        <span class="text">+91 91813 23 2309</span>
+    </a>
+
+    <a href="https://maps.google.com" target="_blank" class="contact-item">
+        <span class="icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        </span>
+        <span class="text">Get Location</span>
+    </a>
+</div>
+
+<section class="contact-form-section">
+  <form class="contact-form">
+    
+    <div class="form-row">
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" placeholder="Type here">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="Type here">
+      </div>
+    </div>
+
+    <div class="form-box">
+      <label class="box-label">Why are you contacting us?</label>
+      <div class="checkbox-grid">
+        <label class="custom-checkbox">
+          <input type="checkbox" checked>
+          <span class="checkmark"></span> Web Design
+        </label>
+        <label class="custom-checkbox">
+          <input type="checkbox">
+          <span class="checkmark"></span> Collaboration
+        </label>
+        <label class="custom-checkbox">
+          <input type="checkbox">
+          <span class="checkmark"></span> Mobile App Design
+        </label>
+        <label class="custom-checkbox">
+          <input type="checkbox">
+          <span class="checkmark"></span> Others
+        </label>
+      </div>
+    </div>
+
+    <div class="form-box">
+      <label class="box-label">Your Budget</label>
+      <p class="sub-label">Slide to indicate your budget range</p>
+      <div class="slider-container">
+        <input type="range" min="1000" max="10000" value="5000" class="budget-slider">
+        <div class="slider-values">
+          <span>$1000</span>
+          <span>$5000</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-box">
+      <label class="box-label">Your Message</label>
+      <textarea placeholder="Type here"></textarea>
+    </div>
+
+    <button type="submit" class="btn-submit">Submit</button>
+<div class="form-footer-info">
+      <div class="info-item">
+        <span class="label-text">Operating Days</span>
+        <div class="info-badge">Monday to Friday</div>
+      </div>
+
+      <div class="info-item social-wrapper">
+        <span class="label-text">Stay Connected</span>
+        <div class="social-links">
+          <a href="#" class="social-box"><img src="https://img.icons8.com/ios-filled/50/ccff33/facebook-new.png" alt="FB"></a>
+          <a href="#" class="social-box"><img src="https://img.icons8.com/ios-filled/50/ccff33/twitter.png" alt="TW"></a>
+          <a href="#" class="social-box"><img src="https://img.icons8.com/ios-filled/50/ccff33/linkedin.png" alt="IN"></a>
+        </div>
+      </div>
+    </div>
+  </form>
+</section>
+
+<section class="faq">
+  <div class="section-header">
+    <h1>Frequently Asked Questions</h1>
+    <p>Still you have any questions? Contact our Team via hello@squareup.com</p>
+  </div>
+
+  <div class="faq-grid">
+    
+    <div class="faq-column">
+      
+      <div class="faq-item active">
+        <div class="faq-header">
+          <span class="faq-number">01</span>
+          <h3>What services does SquareUp provide?</h3>
+          <i class="fa-solid fa-xmark faq-icon"></i>
+        </div>
+        <div class="faq-content">
+          <p>SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <span class="faq-number">02</span>
+          <h3>How can SquareUp help my business?</h3>
+          <i class="fa-solid fa-plus faq-icon"></i>
+        </div>
+        <div class="faq-content">
+          <p>We combine creativity and technical expertise to create digital products that drive business growth, enhance user experiences, and provide a competitive advantage.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <span class="faq-number">03</span>
+          <h3>What industries does SquareUp work with?</h3>
+          <i class="fa-solid fa-plus faq-icon"></i>
+        </div>
+        <div class="faq-content">
+          <p>We have experience working with diverse industries, including Real Estate, Health & Fitness, E-commerce, Event Management, and ProTech Solutions.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <span class="faq-number">04</span>
+          <h3>How long does it take to complete a project with SquareUp?</h3>
+          <i class="fa-solid fa-plus faq-icon"></i>
+        </div>
+        <div class="faq-content">
+          <p>Project timelines vary based on complexity, but we are committed to delivery exceptional results in a competitive timeframe.</p>
+        </div>
+      </div>
+      
+    </div> <div class="faq-column">
+      
+      <div class="faq-item">
+        <div class="faq-header">
+          <span class="faq-number">05</span>
+          <h3>Do you offer ongoing support and maintenance after the project is completed?</h3>
+          <i class="fa-solid fa-plus faq-icon"></i>
+        </div>
+        <div class="faq-content">
+          <p>Yes, we value long-term relationships and see ourselves as your digital partner, providing ongoing support to ensure your products continue to thrive.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <span class="faq-number">06</span>
+          <h3>Can you work with existing design or development frameworks?</h3>
+          <i class="fa-solid fa-plus faq-icon"></i>
+        </div>
+        <div class="faq-content">
+          <p>Absolutely. Our team stays updated with the latest industry trends and can integrate seamlessly with your preferred technologies and workflows.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <span class="faq-number">07</span>
+          <h3>How involved will I be in the project development process?</h3>
+          <i class="fa-solid fa-plus faq-icon"></i>
+        </div>
+        <div class="faq-content">
+          <p>We prioritize our clients. We listen to your ideas and goals, ensuring constant collaboration through our established processes.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <span class="faq-number">08</span>
+          <h3>Can you help with website or app maintenance and updates?</h3>
+          <i class="fa-solid fa-plus faq-icon"></i>
+        </div>
+        <div class="faq-content">
+          <p>Yes, we offer comprehensive maintenance and update services to keep your digital products running smoothly and up-to-date.</p>
+        </div>
+      </div>
+
+    </div> </div>
+</section>
+
+<Section class="Cta-banner-about">
+    <div class="CTA-about">
+    <div class="about-logo">
+<img src="/assets/logo.png" alt=""> </div>
+    <div class="Cta-text">
+        <h1>Today, SquareUp Continues to Thrive as a Leading Digital Product Agency.....</h1>
+        <p>Combining the power of design, engineering, and project management to create transformative digital experiences. They invite you to join them on their journey and discover how they can help bring your digital ideas to life.</p>
+    </div>
+    </div>
+
+    <div class="action-banner">
+<span class="banner-label">Welcome to SquareUp</span>    <div class="banner-highlight">
+        Where collaboration, Expertise, and Client-Centricity Intersect to Shape the Future of Digital Innovation.
+    </div>
+    <button class="banner-btn">Start Project</button>
+        </div>
+</Section>
+
+    <footer class="footer">
+  <div class="footer-top">
+    <div class="footer-logo">
+      <div class="logo-box">
+        <i class="fa-solid fa-cube"></i>
+      </div>
+      <span>SquareUp</span>
+    </div>
+
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Service.html">Services</a></li>
+      <li><a href="Work.html">Work</a></li>
+      <li><a href="Process.html">Process</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="career.html">Careers</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="social-box">
+      <span>Stay Connected</span>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="contact-info">
+      <div class="info-item">
+        <i class="fa-solid fa-envelope"></i>
+        <span>hello@squareup.com</span>
+      </div>
+      <div class="info-item">
+        <i class="fa-solid fa-phone"></i>
+        <span>+91 91813 23 2309</span>
+      </div>
+      <div class="info-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Somewhere in the World</span>
+      </div>
+    </div>
+    <p class="copyright">© 2023 SquareUp. All rights reserved.</p>
+  </div>
+</footer>
+<script src="nav.js"></script>
+</body>
+</html>
